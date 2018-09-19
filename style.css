@@ -1,0 +1,39 @@
+
+body {
+	margin-top: 50px;
+	border: 3x solid red;
+}
+
+
+
+h2{
+	color:#00FF7F;
+	text-align: center;
+	border: 5px dotted red;
+	}
+
+
+.list {
+	
+	width: 100px;
+	padding: 30px;
+	border: 3x dotted blue;
+	font-weight: bold;
+	border: 5px dotted red;
+}
+
+    table {
+                border: 2px solid black;
+                border-collapse: collapse;
+                width: 50%;
+            }
+
+            th, td {
+                border: 1px solid black;
+                padding: 5px;
+                text-align: center;
+            }
+
+            th {
+                background-color: lightgray;
+            }
