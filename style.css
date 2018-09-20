@@ -1,6 +1,11 @@
 
+
+
 body {
+	margin-left: 200px;
+	margin-right: 200px;
 	margin-top: 50px;
+	margin-bottom: 50px;
 	border: 3x solid red;
 }
 
@@ -13,9 +18,9 @@ h2{
 	}
 
 
-.list {
+#list {
 	
-	width: 100px;
+	width: 500px;
 	padding: 30px;
 	border: 3x dotted blue;
 	font-weight: bold;
@@ -36,4 +41,48 @@ h2{
 
             th {
                 background-color: lightgray;
+            }
+
+button {
+	width: 200px;
+	height: 50px;
+	font-size: 24px;
+	background-color: green
+}
+
+button:hover {
+	background-color: orange;
+}
+
+link:hover {
+	background-color: orange;
+}
+
+p::selection {
+                color: red;
+                background-color: yellow;
+            }
+
+
+    .grid {
+                background-color: green;
+                display: grid;
+                padding: 20px;
+                grid-column-gap: 20px;
+                grid-row-gap: 10px;
+                grid-template-columns: 200px 200px auto;
+            }
+
+            .grid-item {
+                background-color: white;
+                font-size: 20px;
+                padding: 20px;
+                text-align: center;
+            }
+
+
+  .row > div {
+                padding: 20px;
+                background-color: teal;
+                border: 2px solid black;
             }
