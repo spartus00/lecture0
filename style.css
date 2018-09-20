@@ -86,3 +86,8 @@ p::selection {
                 background-color: teal;
                 border: 2px solid black;
             }
+
+
+  .alert {
+                margin: 20px;
+            }
